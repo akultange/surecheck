@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Surecheck concept · Brief map</title>
+<meta name="description" content="How the Surecheck homepage concept answers each point of the brief, where every product claim comes from, and how the build was checked.">
+<link rel="preload" href="assets/fonts/sc-display-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/sc-text-latin.woff2" as="font" type="font/woff2" crossorigin>
+<style>
+@font-face{font-family:"SC Display";src:url(assets/fonts/sc-display-latin.woff2) format("woff2");font-weight:540;font-display:swap}
+@font-face{font-family:"SC Text";src:url(assets/fonts/sc-text-latin.woff2) format("woff2");font-weight:400 700;font-display:swap}
+:root{--lilac:#D9CAE8;--lilac-2:#E9E0F1;--plum:#831466;--crimson:#B71C5E;--ink:#2B0726;--fg-2:#4A2A4B;--m:clamp(16px,4vw,56px)}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%}
+body{font-family:"SC Text",system-ui,sans-serif;background:#fff;color:var(--ink);font-size:17px;line-height:1.5;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration-thickness:1px;text-underline-offset:3px}
+a:focus-visible,button:focus-visible{outline:3px solid var(--ink);outline-offset:3px;border-radius:6px}
+.top{background:var(--plum);color:#fff;padding:clamp(40px,8vw,104px) var(--m) clamp(40px,6vw,72px)}
+.top a:focus-visible{outline-color:#fff}
+.kicker{display:flex;flex-wrap:wrap;gap:8px 16px;align-items:center;font-size:15px;font-weight:550;color:#F1E7F7;margin-bottom:clamp(24px,4vw,48px)}
+.kicker b{background:var(--crimson);color:#fff;border-radius:999px;padding:5px 12px;letter-spacing:.06em;font-weight:700;font-size:13px}
+h1,h2,.big{font-family:"SC Display",Georgia,serif;font-weight:540;letter-spacing:-.018em;line-height:.98}
+h1{font-size:clamp(48px,8vw,120px);max-width:12ch}
+.top p.lede{font-size:clamp(19px,1.6vw,23px);max-width:44ch;margin-top:clamp(20px,3vw,32px);color:#F7EEF9}
+.top .links{display:flex;flex-wrap:wrap;gap:12px;margin-top:32px}
+.btn{display:inline-flex;align-items:center;height:52px;padding:0 26px;border-radius:999px;font-weight:650;text-decoration:none;background:#fff;color:var(--ink)}
+.btn--ghost{background:transparent;color:#fff;box-shadow:inset 0 0 0 2px rgba(255,255,255,.55)}
+main{padding:0 var(--m)}
+section{max-width:1180px;margin:0 auto;padding:clamp(48px,7vw,96px) 0;border-bottom:1px solid #EFE6F3}
+section:last-child{border-bottom:0}
+h2{font-size:clamp(36px,4.6vw,64px);margin-bottom:16px}
+.intro{max-width:62ch;color:var(--fg-2);margin-bottom:clamp(24px,3vw,40px)}
+.idea{font-family:"SC Display",Georgia,serif;font-weight:540;font-size:clamp(28px,3.2vw,44px);line-height:1.12;letter-spacing:-.01em;max-width:28ch;color:var(--plum);margin-top:24px}
+table{width:100%;border-collapse:collapse;font-size:16px}
+caption{text-align:left;font-weight:700;font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--crimson);padding:28px 0 10px}
+th{text-align:left;font-size:13px;font-weight:650;color:var(--fg-2);padding:0 16px 10px 0;border-bottom:2px solid var(--ink)}
+td{vertical-align:top;padding:14px 16px 14px 0;border-bottom:1px solid #EFE6F3}
+td:first-child{width:30%;font-weight:600}
+td:nth-child(2){width:24%;color:var(--plum);font-weight:600}
+.tbl3 td:first-child{width:34%}
+.tbl3 td:nth-child(2){width:30%}
+.note{font-size:14px;color:var(--fg-2)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
+.stat{background:var(--lilac-2);border-radius:24px;padding:22px 22px 20px}
+.stat .big{font-size:clamp(40px,4vw,56px);color:var(--plum)}
+.stat p{margin-top:8px;font-size:15px;color:var(--fg-2)}
+.foot{background:var(--ink);color:#F1E7F7;padding:40px var(--m);font-size:14px}
+.foot a:focus-visible{outline-color:#fff}
+@media (max-width:760px){
+  table,thead,tbody,tr,td,th,caption{display:block;width:100%!important}
+  thead{display:none}
+  tr{padding:14px 0;border-bottom:1px solid #EFE6F3}
+  td{border:0;padding:2px 0}
+  td:first-child{font-size:17px}
+}
+</style>
+</head>
+<body>
+<header class="top">
+  <p class="kicker"><b>SPEC</b><span>Homepage concept for Surecheck · Luka Skhiladze</span></p>
+  <h1>How the concept answers the brief.</h1>
+  <p class="lede">Every point of your brief, and the moment on the page that answers it. Every product claim, and where it comes from. And how the build was checked.</p>
+  <div class="links"><a class="btn" href="./">Open the concept</a><a class="btn btn--ghost" href="https://skhiladze.com/work" target="_blank" rel="noopener">More work</a></div>
+</header>
+<main>
+<section aria-labelledby="idea">
+  <h2 id="idea">The idea</h2>
+  <p class="idea">The real test makes room for itself. It drops into the headline, comes apart, shows what happens inside, and goes back together with one clear answer.</p>
+</section>
+
+<section aria-labelledby="map">
+  <h2 id="map">Brief → moment</h2>
+  <p class="intro">Your brief, point by point, and where it’s answered. The headings follow the brief’s own sections.</p>
+  <table>
+    <caption>1 · Objectives</caption>
+    <thead><tr><th>Brief</th><th>Where</th><th>What happens</th></tr></thead>
+    <tbody>
+      <tr><td>Modernise the visual identity</td><td>Every section</td><td>An editorial serif for headlines and a clean sans for reading, with flat fields of your plum, crimson and lilac that hand over through liquid edges.</td></tr>
+      <tr><td>Modern, innovative, trustworthy</td><td>Hero, “Over 99% accurate”</td><td>The tests are real-time 3D, built from your own renders. Every claim on the page is your own wording (table below).</td></tr>
+      <tr><td>The product as the central visual element</td><td>Hero → showcase → “Two ways to check”</td><td>One Streamer travels the whole first half of the page. The Cassette rises into the tile next to it.</td></tr>
+      <tr><td>Highly dynamic and immersive</td><td>Whole page</td><td>One continuous scroll story. The headline parts like a curtain, the test comes apart and back together, and each section flows into the next.</td></tr>
+      <tr><td>Better information and usability</td><td>How to use, Slide it. Read it., When can I test?, FAQ</td><td>Step-by-step instructions for both formats, an interactive result reader, a test-date calculator and plain answers to the questions women actually ask.</td></tr>
+      <tr><td>Flexible platform, easy CMS</td><td>Launch plan</td><td>Not part of a concept. In the build, every section becomes a CMS block your marketing team can edit in every language.</td></tr>
+    </tbody>
+  </table>
+  <table>
+    <caption>2 · Audience</caption>
+    <tbody>
+      <tr><td>Young women, Gen Z and Millennials</td><td>Type, colour, film, journal</td><td>Warm editorial type, real campaign photography, the “Twenty years of stories” film, and a journal sorted the way readers browse: Love, Wellbeing, Fertility, Sex-Ed.</td></tr>
+      <tr><td>Some come only for instructions or a result: keep it clear</td><td>How to use, Slide it. Read it., FAQ</td><td>Instructions never wait behind an animation. The header steps aside while you read. With “reduce motion” on, the page stays calm and fully readable.</td></tr>
+    </tbody>
+  </table>
+  <table>
+    <caption>3 · Visual concept</caption>
+    <tbody>
+      <tr><td>Modern medical aesthetic: precision, reliability, trust</td><td>“Over 99% accurate”</td><td>An exploded view with numbered parts and leader lines, like a technical drawing. The 3D front view lines up with your official render (99.6% overlap).</td></tr>
+      <tr><td>Marvis for motion: continuous movement, smooth transitions, product storytelling</td><td>Whole page</td><td>One set of motion timings across the page, scroll-linked scenes, the product carried between sections, and one signature transition, the liquid edge.</td></tr>
+      <tr><td>Alive from the first moment, with an immersive intro</td><td>Intro → hero</td><td>Your three-minute wait as a clock that counts to 03:00, then lifts away like liquid. The test drops into the headline and the words make room.</td></tr>
+      <tr><td>Scroll-driven animation: slide, rotate, scale, recompose</td><td>Hero, showcase</td><td>The words part. The test turns, comes apart into five parts, goes back together as glass, turns solid and slides into its tile.</td></tr>
+      <tr><td>Seamless transitions: elements move into the next section</td><td>Hero → showcase → tiles</td><td>The same 3D object flies from section to section; sections meet at moving liquid edges.</td></tr>
+      <tr><td>Dynamic layouts and typography</td><td>Hero, How to use</td><td>The headline splits around the product; lines reveal one by one; the four steps climb like a stair.</td></tr>
+      <tr><td>Microinteractions</td><td>Everywhere you can press</td><td>Spring feedback on every button and card. You can drag to spin the hero test. The product tiles lean toward the cursor, the cover in the reader slides, and keyboard focus is always visible.</td></tr>
+      <tr><td>The product as visual hero: 3D, interactive, with typography, moving between sections, exactly on brand</td><td>Hero, showcase, tiles</td><td>The test is 3D and interactive, set between the words, carried across sections, and built from your renders so its shape, proportions and print are exact.</td></tr>
+      <tr><td>Medical credibility: careful type, structured information</td><td>How to use, reader, FAQ</td><td>The steps follow the leaflet, and results are explained in plain language, with what to do when unsure.</td></tr>
+    </tbody>
+  </table>
+  <table>
+    <caption>4 · Homepage</caption>
+    <tbody>
+      <tr><td>A hero with strong impact in the first seconds</td><td>Hero</td><td>“Sure from day one.” The test lands in the gap, turns once, the cover slides open and both lines appear.</td></tr>
+      <tr><td>Dynamic product presentation on scroll</td><td>“Over 99% accurate”</td><td>Five named parts, then the test at work: the pink wave runs up the strip and T, then C, form.</td></tr>
+      <tr><td>Brand communication that is easy to update</td><td>“Twenty years of stories”, “Got a story?”</td><td>A full-bleed film block and a call to share stories. Both are single blocks, easy to swap for a new campaign.</td></tr>
+      <tr><td>Educational content, presented engagingly</td><td>“From the journal.”</td><td>A big editorial list with category filters; a photo follows the cursor across the headlines.</td></tr>
+    </tbody>
+  </table>
+  <table>
+    <caption>5 · Product pages (previewed on the homepage)</caption>
+    <tbody>
+      <tr><td>Interactive presentation, 3D and animated visuals</td><td>“Two ways to check”</td><td>Each format in its own tile, in live 3D, leaning toward the cursor.</td></tr>
+      <tr><td>Features and benefits</td><td>“Two ways to check”</td><td>Streamer: hold it in your stream, no cup, no pipette. Cassette: a few drops in the well. Both: your answer within 3 minutes.</td></tr>
+      <tr><td>Interactive instructions</td><td>How to use</td><td>Four steps, one per scroll, with a Streamer / Cassette switch that rewrites the steps for each format.</td></tr>
+      <tr><td>Short demos</td><td>“Over 99% accurate”</td><td>The glass view shows the test working inside, in close-up.</td></tr>
+      <tr><td>Clear result interpretation</td><td>Slide it. Read it.</td><td>Slide the cover, choose Pregnant, Faint line or Not pregnant, and scrub the time: wait, read from 3 minutes, ignore after 10.</td></tr>
+      <tr><td>Accessible FAQ</td><td>Good questions.</td><td>Native, keyboard-friendly questions and answers, written for the worries people actually search.</td></tr>
+    </tbody>
+  </table>
+  <table>
+    <caption>6 · Structure and navigation</caption>
+    <tbody>
+      <tr><td>Keep the existing structure</td><td>Menu, footer</td><td>The same destinations as today: How to use, How to read, When to test, Tests, FAQ, Blog.</td></tr>
+      <tr><td>Navigation that is modern, intuitive and integrated</td><td>Header</td><td>It hides while you read down and comes back on the way up as a solid bar in the colour of the section beneath it. It is tested never to sit on top of text (below).</td></tr>
+    </tbody>
+  </table>
+  <table>
+    <caption>7 · Blog</caption>
+    <tbody>
+      <tr><td>Engaging landing, large imagery, contemporary type</td><td>“From the journal.”</td><td>Headlines set in the display serif, with photography.</td></tr>
+      <tr><td>Categories</td><td>“From the journal.”</td><td>Filter chips: Love, Wellbeing, Fertility, Sex-Ed.</td></tr>
+      <tr><td>Readable on desktop and mobile; related articles; embedded video</td><td>Next phase</td><td>The article template (reading layout, related articles, embedded video) is the first page in the full system.</td></tr>
+    </tbody>
+  </table>
+  <table>
+    <caption>8 · Mobile</caption>
+    <tbody>
+      <tr><td>A real mobile experience</td><td>Every section</td><td>Phone layouts are composed for the phone, not shrunk. On phones the 3D loads on the first touch, so the first screen appears straight away.</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<section aria-labelledby="claims">
+  <h2 id="claims">Every claim, and its source</h2>
+  <p class="intro">Each instruction and claim on the page, checked against your published instructions and FAQ (surecheck.info) and the pack insert text. The printed leaflet wasn’t available to me; I’ll re-check against it before launch.</p>
+  <table class="tbl3">
+    <thead><tr><th>On the page</th><th>Where</th><th>Source</th></tr></thead>
+    <tbody>
+      <tr><td>Over 99% accurate</td><td>Hero, showcase, “Two ways to check”</td><td>Product pages: over 99% accuracy</td></tr>
+      <tr><td>From the first day of a missed period, any time of day</td><td>Hero, “Two ways to check”, FAQ</td><td>Product pages and FAQ</td></tr>
+      <tr><td>Colloidal gold technology</td><td>Showcase, part 4 and closing fact</td><td>Product pages</td></tr>
+      <tr><td>A faint line still means pregnant</td><td>Hero, How to use step 4, reader, FAQ</td><td>Insert: “Even if one line is lighter than the other, this still indicates a PREGNANT result.”</td></tr>
+      <tr><td>Open the foil right before use</td><td>How to use, step 1</td><td>Insert</td></tr>
+      <tr><td>Take off the pink cap; it goes back on after</td><td>How to use, steps 2–3; showcase, part 1 and the glass scene</td><td>Insert</td></tr>
+      <tr><td>3–5 seconds in the stream, until the whole tip is soaked</td><td>How to use step 2, showcase part 2, Streamer tile</td><td>Insert</td></tr>
+      <tr><td>Lay it flat, window up; pink moving across the window means it is working</td><td>How to use step 3, the pink wave in the showcase</td><td>Insert</td></tr>
+      <tr><td>Your result within 3 minutes</td><td>Hero “3 min”, step 3, tiles, reader</td><td>Insert</td></tr>
+      <tr><td>One line at C: not pregnant</td><td>How to use step 4, reader</td><td>Insert</td></tr>
+      <tr><td>No line at C: the test didn’t work, use a new one</td><td>How to use step 4</td><td>Insert (no line at C after 5 minutes: invalid)</td></tr>
+      <tr><td>Ignore results after 10 minutes</td><td>Reader timeline, FAQ</td><td>FAQ</td></tr>
+      <tr><td>Cassette: urine in a clean cup, 3–4 drops with the pipette</td><td>Cassette tile, step 2 (Cassette)</td><td>Insert and product page</td></tr>
+      <tr><td>Irregular cycle: test 19 days after possible conception; if negative, again 48 hours later</td><td>FAQ</td><td>FAQ</td></tr>
+      <tr><td>Medication, recent pregnancy, lots of liquid, streaks or pink background</td><td>FAQ</td><td>FAQ</td></tr>
+      <tr><td>Test date = first day of last period + usual cycle length</td><td>When can I test?</td><td>Follows “from the first day of a missed period”; labelled as based only on what you enter</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<section aria-labelledby="checks">
+  <h2 id="checks">How it was checked</h2>
+  <p class="intro">Measured on the live build. The numbers are repeatable: the tests are scripts, not screenshots picked by hand.</p>
+  <div class="grid">
+    <div class="stat"><p class="big" data-n="lh-perf">90+</p><p>Lighthouse performance on a mid-range phone (simulated slow 4G). Largest paint <span data-n="lcp">2.3 s</span>, layout shift <span data-n="cls">0</span>.</p></div>
+    <div class="stat"><p class="big">0</p><p>Accessibility violations in axe-core (WCAG 2.2 A/AA plus best practice), desktop and phone. Lighthouse accessibility <span data-n="lh-a11y">100</span>.</p></div>
+    <div class="stat"><p class="big" data-n="hdr">0 px</p><p>Text ever covered by the header, measured at <span data-n="hdr-states">every quarter screen</span>, scrolling down and up, desktop and phone.</p></div>
+    <div class="stat"><p class="big">AA</p><p>Contrast on every text colour pair: ink on lilac 11.7:1, white on plum 9.3:1, white on crimson 6.3:1.</p></div>
+    <div class="stat"><p class="big">6</p><p>Languages the type already covers: EN, BG, RO, MK, SQ and AR (Latin, Cyrillic, Arabic), with fallbacks matched to each font so text never jumps as fonts load.</p></div>
+    <div class="stat"><p class="big">99.6%</p><p>Overlap between the 3D Streamer’s front view and your official render.</p></div>
+  </div>
+</section>
+</main>
+<footer class="foot"><p>Spec concept for the Surecheck redesign brief, designed and built by <a href="https://skhiladze.com/work" target="_blank" rel="noopener">Luka Skhiladze</a>. Not the official Surecheck website. Product images, film and copy belong to Surecheck / Unicoms.</p></footer>
+</body>
+</html>
